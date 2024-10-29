@@ -50,31 +50,37 @@ Customize the **musicLibrary** with song titles and URLs.
         "another_song": "another_url"
     }
 
-Usage
+### Usage
+
 Run the main Python script to activate Jarvis:
 
-bash
-Copy code
-python jarvis.py
+    python jarvis.py
+    
 Upon activation, say "Jarvis" to initiate a command sequence, followed by any of the supported commands.
 
-Commands List
-Basic Commands:
+### Commands List
 
-"Open Google" - Opens Google in the default web browser.
-"Open Facebook" - Opens Facebook in the default web browser.
-"Open YouTube" - Opens YouTube in the default web browser.
-"Open LinkedIn" - Opens LinkedIn in the default web browser.
-"Open Netflix" - Opens Netflix in the default web browser.
-Time Command:
+**Basic Commands:**
 
-"What’s the time?" or "Tell me the time" - Jarvis announces the current time.
-Music:
+    "Open Google" - Opens Google in the default web browser.
+    "Open Facebook" - Opens Facebook in the default web browser.
+    "Open YouTube" - Opens YouTube in the default web browser.
+    "Open LinkedIn" - Opens LinkedIn in the default web browser.
+    "Open Netflix" - Opens Netflix in the default web browser.
+    "You can add some extra commands according to your wish"
+    
+**Time Command:**
 
-"Play [song name]" - Jarvis plays the specified song if it exists in the musicLibrary.
-News:
+    "What’s the time?" or "Tell me the time" - Jarvis announces the current time.
+    
+**Music**:
 
-"News" - Jarvis reads the latest news headlines using NewsAPI.
+    "Play [song name]" - Jarvis plays the specified song if it exists in the musicLibrary.
+    
+**News:**
+
+    "News" - Jarvis reads the latest news headlines using NewsAPI.
+    
 Code Structure
 speak(): Text-to-speech function.
 wishMe(): Greets the user based on the time of day.
