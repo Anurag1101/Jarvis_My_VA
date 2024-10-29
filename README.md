@@ -81,15 +81,24 @@ Upon activation, say "Jarvis" to initiate a command sequence, followed by any of
 
     "News" - Jarvis reads the latest news headlines using NewsAPI.
     
-Code Structure
-speak(): Text-to-speech function.
-wishMe(): Greets the user based on the time of day.
-tellTime(): Announces the current time.
-processCommand(): Processes commands and triggers the appropriate response.
-Error Handling
+## Code Structure
+
+**speak():** Text-to-speech function.
+
+**wishMe():** Greets the user based on the time of day.
+
+**tellTime():** Announces the current time.
+
+**processCommand():** Processes commands and triggers the appropriate response.
+
+## Error Handling
+
 The program includes error handling for:
 
-Timeout and recognition errors
-Unrecognized commands
-License
+**Timeout and recognition errors**
+
+**Unrecognized commands**
+
+## License
+
 This project is licensed under the MIT License.
