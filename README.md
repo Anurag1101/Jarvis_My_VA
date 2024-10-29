@@ -16,14 +16,19 @@
 
 **News Headlines:** Fetches the latest news headlines for the user.
 
-Setup
-Prerequisites
-Ensure you have Python installed. This project requires the following Python packages:
+## Setup
 
-speech_recognition for voice recognition
-pyttsx3 for text-to-speech
-requests for API calls (for news fetching)
-webbrowser for web navigation
+**Prerequisites**:
+
+Ensure you have Python installed.
+
+This project requires the following Python packages:
+
+    speech_recognition for voice recognition
+    pyttsx3 for text-to-speech
+    requests for API calls (for news fetching)
+    webbrowser for web navigation
+
 You can install these packages using:
 
 bash
