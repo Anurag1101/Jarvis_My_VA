@@ -44,6 +44,9 @@ def processCommand(c):
         webbrowser.open("https://chatgpt.com")
     elif "open netflix" in c.lower():
         webbrowser.open("https://netflix.com")
+    
+    # you may add more commands like open github or open instagram etc according to your wish.
+    
     elif "the time" in c.lower():
         tellTime()
     elif c.lower().startswith("play"):
