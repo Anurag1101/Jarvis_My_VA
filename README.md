@@ -1,14 +1,21 @@
 ### Jarvis_My_VA
 
-Jarvis_My_VA is a voice-activated personal assistant developed using Python. It performs a range of tasks such as opening web pages, fetching news, playing music, and responding with the current time. The assistant activates upon hearing the wake word "Jarvis" and provides a conversational experience for users.
+**Jarvis_My_VA** is a voice-activated personal assistant developed using Python. It performs a range of tasks such as opening web pages, fetching news, playing music, and responding with the current time. The assistant activates upon hearing the wake word "Jarvis" and provides a conversational experience for users.
 
-Features
-Voice-activated Commands: Jarvis responds to voice commands and performs various tasks.
-Time-based Greetings: Depending on the time of day, Jarvis greets the user accordingly.
-Time Retrieval: Jarvis can tell the current time upon request.
-Web Navigation: Open commonly used websites like Google, Facebook, YouTube, and LinkedIn.
-Play Music: Jarvis can play songs based on the user's command.
-News Headlines: Fetches the latest news headlines for the user.
+## Features
+
+**Voice-activated Commands:** Jarvis responds to voice commands and performs various tasks.
+
+**Time-based Greetings:** Depending on the time of day, Jarvis greets the user accordingly.
+
+**Time Retrieval:** Jarvis can tell the current time upon request.
+
+**Web Navigation:** Open commonly used websites like Google, Facebook, YouTube, and LinkedIn.
+
+**Play Music:** Jarvis can play songs based on the user's command.
+
+**News Headlines:** Fetches the latest news headlines for the user.
+
 Setup
 Prerequisites
 Ensure you have Python installed. This project requires the following Python packages:
