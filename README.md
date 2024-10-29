@@ -31,24 +31,25 @@ This project requires the following Python packages:
 
 You can install these packages using:
 
-bash
-Copy code
-pip install speechrecognition pyttsx3 requests
-Additional Configuration
-For news headlines, you need an API key from NewsAPI. Update newsapi in the code with your API key:
+    pip install speechrecognition pyttsx3 requests
 
-python
-Copy code
-newsapi = "Your_News_API_Key"
-Music Library Setup
-Customize the musicLibrary with song titles and URLs. Example:
+### Additional Configuration:
 
-python
-Copy code
-musicLibrary = {
-    "song_name": "url_to_song",
-    "another_song": "another_url"
-}
+For **news headlines**, you need an API key from NewsAPI. Update newsapi in the code with your API key:
+
+    newsapi = "Your_News_API_Key"
+    
+### Music Library Setup
+
+Customize the **musicLibrary** with song titles and URLs.
+
+**Example:**
+
+    musicLibrary = {
+        "song_name": "url_to_song",
+        "another_song": "another_url"
+    }
+
 Usage
 Run the main Python script to activate Jarvis:
 
