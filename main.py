@@ -10,7 +10,7 @@ import datetime
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
-newsapi = "f2c16ebba85640bd8d46237600b690ab"
+# newsapi = "Your News API"
 
 def speak(text):
     engine.say(text)
