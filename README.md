@@ -41,7 +41,7 @@ For `news headlines`, you need an API key from NewsAPI. Update newsapi in the co
     
 ### Music Library Setup
 
-Customize the **musicLibrary** with song titles and URLs.
+Customize the `musicLibrary` with song titles and URLs.
 
 **Example:**
 
