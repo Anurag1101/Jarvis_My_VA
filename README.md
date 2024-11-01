@@ -35,7 +35,7 @@ You can install these packages using:
 
 ### Additional Configuration:
 
-For **news headlines**, you need an API key from NewsAPI. Update newsapi in the code with your API key:
+For `news headlines`, you need an API key from NewsAPI. Update newsapi in the code with your API key:
 
     newsapi = "Your_News_API_Key"
     
